@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@plugin "daisyui";
+body {
+  background: url(/bg.webp);
+  background-size:cover ;
+  background-position: center;
+  background-repeat:no-repeat ;
+}
+
+
+::-webkit-scrollbar {
+    /* Customize the scrollbar width */
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    /* Customize the scrollbar track */
+    background-color:  white;
+}
+
+::-webkit-scrollbar-thumb {
+    /* Customize the scrollbar thumb */
+    background-color: #1f1e1e;
+    border-radius: 10px;
+}

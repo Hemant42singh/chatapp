@@ -7,6 +7,13 @@ frontend/build/
 
 # Logs
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# OS
+# OS files
 .DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
